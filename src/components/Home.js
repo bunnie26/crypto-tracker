@@ -1,10 +1,10 @@
 import React from "react";
-import Table from "./Table";
+import CryptoTable from "./Table";
 
 const Home = () => {
   return (
     <div>
-      <Table />
+      <CryptoTable />
     </div>
   );
 };
