@@ -39,7 +39,9 @@ const CryptoTable = () => {
     return coins.filter(
       (item) =>
         item.name.toLowerCase().includes(search) ||
-        item.symbol.toLowerCase().includes(search)
+        item.symbol.toLowerCase().includes(search) ||
+        item.name.includes(search) ||
+        item.symbol.includes(search)
     );
   };
 
